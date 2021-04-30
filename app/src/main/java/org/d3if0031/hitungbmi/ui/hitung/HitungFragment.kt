@@ -61,10 +61,7 @@ class HitungFragment : Fragment() {
                     getKategori(it.kategori))
             binding.buttonGroup.visibility = View.VISIBLE
         })
-        viewModel.data.observe(viewLifecycleOwner, {
-            if (it == null) return@observe
-            Log.d("HitungFragment", "Data tersimpan. ID = ${it.id}")
-        })
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
@@ -115,12 +112,7 @@ class HitungFragment : Fragment() {
         }
         val isMale = selectedId == R.id.priaRadioButton
 
-    viewModel.hitungBmi(berat, tinggi, isMale)
-        viewModel.data.observe(viewLifecycleOwner, {
-            if (it == null) return@observe
-            Log.d("HitungFragment", "Data tersimpan. ID = ${it.id}")
-        })
-}
+    }
     private fun shareData() {
         val selectedId = binding.radioGroup.checkedRadioButtonId
         val gender = if (selectedId == R.id.priaRadioButton)
