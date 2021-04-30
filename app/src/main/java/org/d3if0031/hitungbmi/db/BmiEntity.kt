@@ -11,4 +11,8 @@ data class BmiEntity(
     var berat: Float,
     var tinggi: Float,
     var isMale: Boolean
-)
+) {
+    fun insert(dataBmi: BmiEntity) {
+
+    }
+}
