@@ -17,5 +17,9 @@
         android:id="@+id/SaranFragment"
         android:name="org.d3if0031.hitungbmi.ui.SaranFragment"
         android:label="SaranFragment"
-        tools:layout="@layout/fragment_saran"/>
+        tools:layout="@layout/fragment_saran">
+        <argument
+            android:name="kategori"
+            app:nullable="true" />
+    </fragment>
 </navigation>
