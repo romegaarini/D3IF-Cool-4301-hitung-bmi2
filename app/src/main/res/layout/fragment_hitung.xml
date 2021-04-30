@@ -136,7 +136,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bmiTextView"
             tools:text="Kategori: Ideal" />
-
         <Button
             android:id="@+id/saranButton"
             android:layout_width="wrap_content"
@@ -149,10 +148,8 @@
             android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.121"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/kategoriTextView"
-            app:layout_constraintVertical_bias="0.0"
             tools:visibility="visible" />
 
         <Button
@@ -165,5 +162,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/saranButton"
             app:layout_constraintTop_toTopOf="@+id/saranButton" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
