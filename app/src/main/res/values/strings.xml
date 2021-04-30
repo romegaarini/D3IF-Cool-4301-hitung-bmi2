@@ -28,4 +28,6 @@ berukuran raksasa ini.</string> <string name="saran_ideal">Pertahankan gaya hidu
 gaya karena itu berbahaya.</string>
     <string name="saran_gemuk">Cobalah untuk olahraga lari. Kemanapun boleh,
 asal tidak lari dari kehidupan.</string>
+    <string name="copyright">Hitung BMI merupakan sebuah aplikasi Android untuk  menghitung body mass index (BMI) sehingga seseorang dapat mengetahui apakah  berat badannya ideal, gemuk atau kurus.\n\nAplikasi ini dibuat untuk kelas  Mobpro 1. Temukan kodenya dihttps://github.com/romegaarini/D3IF-Cool-4301-hitung-bmi2.git/nAll rights reserved</string>
+    <string name="tentang_aplikasi">TentangAplikasi</string>
 </resources>
