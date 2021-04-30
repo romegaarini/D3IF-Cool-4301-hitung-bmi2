@@ -23,10 +23,14 @@ class HistoriFragment : Fragment() {
     }
     private lateinit var binding: FragmentHistoriBinding
     private lateinit var myAdapter: HistoriAdapter
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
-        binding = FragmentHistoriBinding.inflate(layoutInflater,
-            container, false)
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        binding = FragmentHistoriBinding.inflate(
+            layoutInflater,
+            container, false
+        )
         myAdapter = HistoriAdapter()
         with(binding.recyclerView) {
             addItemDecoration(
@@ -40,15 +44,13 @@ class HistoriFragment : Fragment() {
         }
         return binding.root
     }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        viewModel.data.observe(viewLifecycleOwner) {
-            binding.emptyView.visibility = if (it.isEmpty())
-                View.VISIBLE else View.GONE
-            myAdapter.updateData(it)
         }
     }
-}
+
+
 
 

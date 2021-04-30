@@ -16,7 +16,6 @@ import org.d3if0031.hitungbmi.R
 import org.d3if0031.hitungbmi.data.KategoriBmi
 import org.d3if0031.hitungbmi.databinding.FragmentHitungBinding
 import org.d3if0031.hitungbmi.db.BmiDb
-import org.d3if0031.hitungbmi.ui.HitungFragmentDirections
 import kotlin.reflect.KProperty
 
 class HitungFragment : Fragment() {
