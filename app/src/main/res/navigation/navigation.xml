@@ -6,7 +6,7 @@
     app:startDestination="@id/hitungFragment">
     <fragment
         android:id="@+id/hitungFragment"
-        android:name="org.d3if0031.hitungbmi.ui.HitungFragment"
+        android:name="org.d3if0031.hitungbmi.ui.hitung.HitungFragment"
         android:label="HitungFragment"
         tools:layout="@layout/fragment_hitung">
         <action
@@ -27,7 +27,7 @@
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="org.d3if0031.hitungbmi.ui.AboutFragment"
+        android:name="org.d3if0031.hitungbmi.ui.hitung.AboutFragment"
         android:label="@string/tentang_aplikasi"
         tools:layout="@layout/fragment_about"/>
 
